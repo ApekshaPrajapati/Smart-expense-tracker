@@ -82,7 +82,7 @@ export default function Home() {
             { step: '03', icon: '📊', title: 'See insights', desc: 'Beautiful pie charts and bar graphs show exactly where your money goes.' },
           ].map(({ step, icon, title, desc }) => (
             <div key={step} style={{ background: '#fff', borderRadius: '20px', border: '1px solid #e8e4dc', padding: '1.8rem', position: 'relative', overflow: 'hidden', boxShadow: '0 2px 12px rgba(0,0,0,0.04)' }}>
-              <div style={{ position: 'absolute', top: '16px', right: '20px', fontFamily: "'Playfair Display', serif", fontSize: '48px', fontWeight: 700, color: '#eff6ff', lineHeight: 1 }}>{step}</div>
+              <div style={{ position: 'absolute', top: '16px', right: '20px', fontFamily: "'Playfair Display', serif", fontSize: '48px', fontWeight: 700, color: 'rgb(148,175,210)', lineHeight: 1 }}>{step}</div>
               <div style={{ fontSize: '32px', marginBottom: '16px' }}>{icon}</div>
               <div style={{ fontSize: '16px', fontWeight: 600, color: '#0f0f0f', marginBottom: '8px', fontFamily: "'Playfair Display', serif" }}>{title}</div>
               <div style={{ fontSize: '13px', color: '#64748b', lineHeight: 1.7 }}>{desc}</div>
