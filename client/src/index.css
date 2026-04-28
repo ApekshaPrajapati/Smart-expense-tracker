@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,700;1,400&display=swap');
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body { font-family: 'DM Sans', sans-serif; background: #f8f7f4; }
+
+h1, h2, h3 { font-family: 'Playfair Display', serif; }
+
+/* Fix invisible input text */
+input, textarea, select {
+  color: #0f0f0f !important;
+  font-family: 'DM Sans', sans-serif;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #9ca3af !important;
+}
