@@ -32,7 +32,7 @@ export default function Login() {
         {/* Logo */}
         <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
           <div style={{ width: '56px', height: '56px', background: 'linear-gradient(135deg, #2563eb, #1d4ed8)', borderRadius: '16px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '26px', margin: '0 auto 16px' }}>💰</div>
-          <h1 style={{ fontFamily: "'Playfair Display', serif", fontSize: '2rem', fontWeight: 700, color: '#0f0f0f', marginBottom: '6px' }}>SpendSmart</h1>
+          <h1 style={{ fontFamily: "'Playfair Display', serif", fontSize: '2rem', fontWeight: 700, color: '#0f0f0f', marginBottom: '6px' }}>XpenseAI</h1>
           <p style={{ color: '#94a3b8', fontSize: '14px' }}>Track every rupee, smartly</p>
         </div>
 

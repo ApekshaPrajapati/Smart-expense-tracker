@@ -19,7 +19,7 @@ export default function Home() {
       <nav style={{ padding: '1.25rem 2rem', display: 'flex', alignItems: 'center', justifyContent: 'space-between', borderBottom: '1px solid rgba(255,255,255,0.08)' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
           <div style={{ width: '32px', height: '32px', background: 'linear-gradient(135deg, #10b981, #059669)', borderRadius: '10px', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '16px' }}>💰</div>
-          <span style={{ fontFamily: "'Playfair Display', serif", fontWeight: 700, fontSize: '20px', color: '#fff' }}>SpendSmart</span>
+          <span style={{ fontFamily: "'Playfair Display', serif", fontWeight: 700, fontSize: '20px', color: '#fff' }}>XpenseAI</span>
         </div>
         <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
           <Link to="/login" style={{ fontSize: '13px', color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontWeight: 500 }}>Login</Link>
