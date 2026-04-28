@@ -59,5 +59,5 @@ VITE_API_URL=http://localhost:5000/api
 
 ## Live Demo
 
-🔗 [your-vercel-link.vercel.app](https://smart-expense-tracker-ten-rouge.vercel.app)
+🔗 [vercel-link.vercel.app](https://smart-expense-tracker-ten-rouge.vercel.app)
 
