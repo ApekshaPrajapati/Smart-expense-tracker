@@ -16,7 +16,7 @@ router.post('/parse-expense', auth, async (req, res) => {
     const today = new Date().toISOString().split('T')[0]
 
     const response = await groq.chat.completions.create({
-      model: 'qwen-qwq-32b',
+      model: 'llama-3.1-8b-instant',
       messages: [{
         role: 'user',
         content: `Today's date is ${today}. Extract expense details from this text and return ONLY a JSON object with no explanation:
